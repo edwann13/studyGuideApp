@@ -2,7 +2,7 @@
 <resources>
 
     <string name="app_name">StudyGuide</string>
-    <string name="hello_world">Hello world!</string>
+    <string name="hello_world">This is the spot that I am change the test from!</string>
     <string name="action_settings">Settings</string>
 
 </resources>

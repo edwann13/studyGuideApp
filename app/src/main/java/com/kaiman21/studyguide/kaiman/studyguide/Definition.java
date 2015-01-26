@@ -4,19 +4,26 @@ package com.kaiman21.studyguide.kaiman.studyguide;
  * Created by Kaiman on 12/22/14.
  */
 public class Definition {
-    Definition(String keyWord, String category, String definition) {
+    public Definition(String keyWord, String category, String definition) {
         _keyWord = keyWord;
         _defCategory = category;
         _definition = definition;
     }
+    int[] arr = {1,2,3,45,234,4};
+
+    public int elmer(int[] _input) {
+        return 0;
+    }
 
     /** Returns the definition. */
     public String getDefinition() {
+
         return _definition;
     }
 
     /** Returns my keyword. */
     public String getKeyWord() {
+
         return _keyWord;
     }
 

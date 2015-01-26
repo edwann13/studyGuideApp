@@ -7,7 +7,7 @@ import java.util.HashMap;
  * Created by Kaiman on 12/22/14.
  */
 public class Dictionary {
-    Dictionary() {
+    public Dictionary() {
 
         _listOfWords = new ArrayList<String>();
         _dictionary = new HashMap<String, Definition>();
@@ -21,6 +21,17 @@ public class Dictionary {
         _listOfWords.add(keyword);
         _dictionary.put(keyword, input);
 
+    }
+    /** Fix me I need to override the hashcode for this class. */
+    @Override
+    public int hashcode() {
+        return 0;
+    }
+    /** Returns a boolean if the word is contained within
+     * the dictionary.
+     */
+    public boolean containsKey(String keyword   ) {
+        return _dictionary.containsKey(keyword);
     }
 
     /** Returns the Definition Object from me. If the
